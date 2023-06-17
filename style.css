@@ -1,0 +1,41 @@
+.data{
+    padding:60px;
+    background-color:black;
+}
+h1,label{
+    color:white
+}
+.container{
+    display: flex;
+    gap: 60px;
+}
+input{
+    padding:10px 20px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+button{
+    padding:10px 20px;
+    outline: none;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px;
+}
+#error{
+    color:blue;
+
+}
+#success{
+    color:yellow;
+}
+.employeelist{
+    color: aliceblue;
+    display: flex;
+    gap:70px;
+    align-items: center;
+}
+
+p{
+    color:white;
+}
